@@ -1,4 +1,6 @@
 package org.example.controlefinancas.repository;
 
-public class MetaRepositorio {
-}
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Meta;
+
+public interface MetaRepositorio extends JpaRepository<Meta, Long> { }
