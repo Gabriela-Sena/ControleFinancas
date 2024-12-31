@@ -1,8 +1,9 @@
 package org.example.controlefinancas.service;
 
+import org.example.controlefinancas.model.Meta;
 import org.example.controlefinancas.repository.MetaRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.repository.Meta;
+
 import org.springframework.stereotype.Service;
 
 
